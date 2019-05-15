@@ -4,7 +4,7 @@ A Multi Player Game Based on Cyber Security
 
 #####################################Instruction for installing the game#######################################
 
-Step 1. Install xampp server on your machine 
+Step 1. 安装Windows版的xampp，要求PHP版本不能高于5.6，Linux的xampp版本过高不能兼容Cyber项目的MySQL连接函数
 Step 2. Copy folder cyber into the root directory of your xampp server i.e. for windows C:\\xampp\htdocs\
 	for linux \opt\lampp\htdocs
 Step 3.( In case of Linux)
@@ -26,8 +26,6 @@ Step 5. Change the credentials in configuration file
 	$db['default']['password'] = '';
 	$db['default']['database'] = 'acs_cyber';
 Step 6. If you plan to upload this game on another web server
-	open file cyber/application/config/config.php
-	change the value of url in the following with your url like 'http://jagmohan.acslab.org/cyber/'
 	$config['base_url']	= 'http://localhost/cyber/';
 Step 7. Now you are ready with the deployment
 	Register at least two players and start playing with each other.
